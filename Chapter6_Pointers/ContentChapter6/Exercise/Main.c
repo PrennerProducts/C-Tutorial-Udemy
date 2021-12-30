@@ -1,4 +1,11 @@
 #include <stdio.h>
+#include <math.h>
+
+void binom (int a, int b, int *c){
+    int temp = a+b;
+    *c = pow(temp,2);
+
+}
 
 int main()
 {
